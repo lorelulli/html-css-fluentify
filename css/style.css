@@ -11,7 +11,7 @@
     clear: both;
 }
 .container-full {
-    width: 70%;
+    width: 80vw;
     margin: 0 auto;
 }
 
@@ -46,11 +46,13 @@ header {
 .info {
     height: 300px;
     background-color: green;
+
 }
 
 section {
+
     float: left;
-    width:33,3%;
+    width:33%;
     background-color: violet;
-    height: 300px;
+
 }
