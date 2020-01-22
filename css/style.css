@@ -11,18 +11,19 @@
     clear: both;
 }
 .container-full {
-    width: 80vw;
+    width: 100%;
     margin: 0 auto;
 }
 
 header {
     height: 100px;
-    background-color: blue;
+    background-color: navy;
     position: relative;
 }
 
 .header-left {
     width: 100%;
+
 }
 
 .menu {
@@ -37,17 +38,64 @@ svg {
 
 .menu li {
     display: inline;
-    margin: 0 10px;
-    font-size: 10px;
-     color: white;
-     text-align: center;
+    margin: 0 15px;
+    font-size: 15px;
+    text-align: center;
+
 
 }
 
+.header-left a {
+    text-decoration: none;
+}
+
+.menu a {
+    color: white;
+}
+
 .right {
-    display: inline;
-    float: right;
-    margin: 0 10px;
+    position: absolute;
+    right: 50px;
+    bottom: 45px;
+}
+
+.right span {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.right a {
+    color: grey;
+    padding-right: 15px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+#reg button {
+    background: navy;
+    border-color: lightblue;
+    color: white;
+    padding: 5px;
+    border-radius: 15%;
+
+}
+
+.str button{
+
+
+
+    font-size: 10px;
+    color: white;
+    display: block;
+    margin-left: ;
+    background-color: green;
+    border-radius: 3%;
+    border-color: green;
+    padding: 4px;
+
+
+
+
 }
 
 .banner {
@@ -80,6 +128,13 @@ svg {
     padding-left: 100px;
 
 }
+
+.frase span button{
+    margin-left: 100px;
+}
+
+
+
 
 .slogan {
     height: 100px;
