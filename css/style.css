@@ -20,6 +20,19 @@ header {
     background-color: blue;
 }
 
+.menu {
+    display: inline-block;
+
+}
+
+.menu li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.header-right {
+    float: right;
+}
 .banner {
     height: 300px;
     background-color: navy;
