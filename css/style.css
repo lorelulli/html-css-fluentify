@@ -18,41 +18,107 @@
 header {
     height: 100px;
     background-color: blue;
+    position: relative;
+}
+
+.header-left {
+    width: 100%;
 }
 
 .menu {
     display: inline-block;
+    margin-left: 30px;
 
+}
+
+svg {
+    margin-top: 10px;
 }
 
 .menu li {
     display: inline;
     margin: 0 10px;
+    font-size: 10px;
+     color: white;
+     text-align: center;
+
 }
 
-.header-right {
+.right {
+    display: inline;
     float: right;
+    margin: 0 10px;
 }
+
 .banner {
     height: 300px;
     background-color: navy;
+
+}
+
+#scelta {
+    font-size: 40px;
+    color: white;
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 30px;
+
 }
 
 .slogan {
     height: 100px;
-    background-color: yellow;
+    background-color: lightgrey;
+    text-align: center;
+    padding-top: 25px;
+
 }
+
+#scuola {
+    font-size: 25px;
+    color: black;
+}
+
+#solo {
+    padding-top: 5px;
+    display: block;
+    color: grey;
+}
+
+
 
 .info {
     height: 300px;
-    background-color: green;
+
+    width: 100%;
+
+    text-align: center;
+
 
 }
 
 section {
 
-    float: left;
-    width:33%;
-    background-color: violet;
+    float:left;
+    width:31%;
 
+    margin-right: 20px
+
+}
+
+.info h1 {
+    color: green;
+    padding-bottom: 40px;
+}
+
+#titolocorto {
+    padding-bottom: 65px;
+
+}
+
+.info img {
+    height: 150px;
+}
+
+.info p {
+    color: lightgrey;
 }
