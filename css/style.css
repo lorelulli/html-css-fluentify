@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.container-full {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+    background-color: blue;
+}
+
+.banner {
+    height: 300px;
+    background-color: navy;
+}
+
+.slogan {
+    height: 100px;
+    background-color: yellow;
+}
+
+.info {
+    height: 300px;
+    background-color: green;
+}
+
+section {
+    float: left;
+    width:33,3%;
+    background-color: violet;
+    height: 300px;
+}
