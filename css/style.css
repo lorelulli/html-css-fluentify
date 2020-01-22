@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Lato', sans-serif;
+}
 
 .clearfix::after {
     content: '';
@@ -11,7 +14,36 @@
     clear: both;
 }
 .container-full {
-    width: 100%;
+    background-color: navy;
+}
+
+.container-grey {
+    background: lightgrey;
+}
+
+.container-white{
+    background-color: white;
+}
+
+.containera{
+    width: 80%;
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+
+.containerb{
+
+    width: 80%;
+    max-width: 1400px;
+    margin: 0 auto;
+
+
+}
+
+.containerc{
+    width: 80%;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -23,6 +55,7 @@ header {
 
 .header-left {
     width: 100%;
+
 
 }
 
@@ -39,7 +72,7 @@ svg {
 .menu li {
     display: inline;
     margin: 0 15px;
-    font-size: 15px;
+    font-size: 10px;
     text-align: center;
 
 
@@ -67,7 +100,7 @@ svg {
 .right a {
     color: grey;
     padding-right: 15px;
-    font-size: 15px;
+    font-size: 10px;
     display: inline-block;
 }
 
@@ -89,9 +122,9 @@ svg {
     display: block;
     margin-left: ;
     background-color: green;
-    border-radius: 3%;
+    border-radius: 5%;
     border-color: green;
-    padding: 4px;
+    padding: 5px;
 
 
 
@@ -116,7 +149,7 @@ svg {
     width: 50%;
     position: absolute;
     right: 0px;
-    top: 100px;
+    top: 123px;
 }
 
 #scelta {
@@ -125,22 +158,20 @@ svg {
     display: block;
     padding-top: 100px;
     padding-bottom: 30px;
-    padding-left: 100px;
+
 
 }
 
-.frase span button{
-    margin-left: 100px;
-}
+
 
 
 
 
 .slogan {
-    height: 100px;
+    height: 150px;
     background-color: lightgrey;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 50px;
 
 }
 
@@ -160,9 +191,12 @@ svg {
 .info {
     height: 300px;
 
-    width: 100%;
+    width: 1400px;
+    max-width: 100%;
 
     text-align: center;
+
+    background-color: white;
 
 
 }
@@ -170,15 +204,21 @@ svg {
 section {
 
     float:left;
-    width:31%;
+    width:32%;
+    margin-right: 20px;
+    margin-top: 20px;
 
-    margin-right: 20px
+}
 
+section:last-child{
+
+    margin-right: 0px;
 }
 
 .info h1 {
     color: green;
     padding-bottom: 40px;
+    font-size: 22px;
 }
 
 #titolocorto {
@@ -192,4 +232,8 @@ section {
 
 .info p {
     color: lightgrey;
+}
+
+button{
+    cursor: pointer;
 }
